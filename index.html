@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Survey</title>
+
+    <!-- Styles -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+    <link rel="stylesheet" href="index.css">
+</head>
+<body class="text-center">
+    <div class="container main-content">
+        <div>
+            <h1 class="page-title">Survey</h1>
+        </div>
+        <div class="m-5">
+            <h2>What did you think of the UI for the <a href="https://github.com/">GitHub</a> website?</h2>
+            <a href="https://github.com/"><img class="mt-3" src="media/github-website.png" alt="GitHub home page" width="634" height="312" /></a>
+        </div>
+        <div>
+            <form class="mx-auto  form">
+                <div class="card">
+                    <div class="card-body">
+                        <div class="card mb-3">
+                            <div class="card-body">
+                                <label for="nameInput" class="form-label"><h5>Email address<span class="text-danger">*</span></h5></label>
+                                <input type="email" class="form-control" id="nameInput" placeholder="name@example.com">
+                            </div>
+                        </div>
+                        <div class="card mb-3">
+                            <div class="card-body">
+                                <label for="nameInput" class="form-label"><h5>What device did you use to access the website? <span class="text-danger">*</span></h5></label>
+                                <select class="form-select" aria-label="Select the device you used to access GitHub">
+                                    <option value="desktop">Desktop/Laptop</option>
+                                    <option value="phone">Mobile Phone</option>
+                                    <option value="tablet">Tablet</option>
+                                    <option value="other">Other</option>
+                                  </select>
+                            </div>
+                        </div>
+                        <div class="card mb-3">
+                            <div class="card-body">
+                                <h5>What are you using GitHub for?<span class="text-danger">*</span></h5>
+                                <div class="mx-auto enum-short">
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="checkbox" id="work">
+                                        <label class="form-check-label" for="work">
+                                            Work
+                                        </label>
+                                    </div>
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="checkbox" id="school">
+                                        <label class="form-check-label" for="school">
+                                            School
+                                        </label>
+                                    </div>
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="checkbox" id="personal">
+                                        <label class="form-check-label" for="personal">
+                                            Personal purposes
+                                        </label>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card mb-3">
+                            <div class="card-body">
+                                <h5>Would you recommend GitHub to a friend?<span class="text-danger">*</span></h5>
+                                <div class="mx-auto enum-yes-no">
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="radio" name="usedGithub" id="usedGithubTrue">
+                                        <label class="form-check-label" for="usedGithubTrue">
+                                            Yes
+                                        </label>
+                                    </div>
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="radio" name="usedGithub" id="usedGithubFalse">
+                                        <label class="form-check-label" for="usedGithubFalse">
+                                            No
+                                        </label>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card mb-3">
+                            <div class="card-body">
+                                <h5>Additional Comments</h5>
+                                <div>
+                                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                                </div>
+                            </div>
+                        </div>
+
+                        <button type="button" class="btn btn-primary">Submit</button>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+    <footer class="mt-3 text-muted"><small>Website created by Garvin Hui</small></footer>
+</body>
+</html>

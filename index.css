@@ -1,0 +1,23 @@
+.body {
+    text-align: center;
+}
+
+.main-content {
+    margin-top: 32px;
+}
+
+.page-title {
+    font-size: 5rem;
+}
+
+.form {
+    max-width: 750px;
+}
+
+.enum-short {
+    max-width: 10rem;
+}
+
+.enum-yes-no {
+    max-width: 3rem;
+}
