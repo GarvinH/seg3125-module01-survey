@@ -14,10 +14,11 @@
     max-width: 750px;
 }
 
-.enum-short {
-    max-width: 10rem;
-}
-
 .enum-yes-no {
     max-width: 3rem;
+}
+
+.enum-short > .form-check {
+    text-align: left;
+    margin-top: 10px;
 }

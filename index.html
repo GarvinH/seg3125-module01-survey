@@ -24,30 +24,55 @@
                     <div class="card-body">
                         <div class="card mb-3">
                             <div class="card-body">
-                                <label for="nameInput" class="form-label"><h5>Email address<span class="text-danger">*</span></h5></label>
-                                <input type="email" class="form-control" id="nameInput" placeholder="name@example.com">
+                                <label for="description" class="form-label"><h5>Please describe any functionality issues you encountered<span class="text-danger">*</span></h5></label>
+                                <input type="text" class="form-control" id="description" placeholder="Type here...">
                             </div>
                         </div>
                         <div class="card mb-3">
                             <div class="card-body">
-                                <h5>What are you using GitHub for?<span class="text-danger">*</span></h5>
-                                <div class="mx-auto enum-short">
+                                <h5>Which sections did you find difficult? (Please do not select "none" with other options)<span class="text-danger">*</span></h5>
+                                <div class="enum-short">
                                     <div class="form-check">
-                                        <input class="form-check-input" type="checkbox" id="work">
-                                        <label class="form-check-label" for="work">
-                                            Work
+                                        <input class="form-check-input" type="checkbox" id="auth">
+                                        <label class="form-check-label" for="auth">
+                                            Authentication (login/register)
                                         </label>
                                     </div>
                                     <div class="form-check">
-                                        <input class="form-check-input" type="checkbox" id="school">
-                                        <label class="form-check-label" for="school">
-                                            School
+                                        <input class="form-check-input" type="checkbox" id="search">
+                                        <label class="form-check-label" for="search">
+                                            Search Function
                                         </label>
                                     </div>
                                     <div class="form-check">
-                                        <input class="form-check-input" type="checkbox" id="personal">
-                                        <label class="form-check-label" for="personal">
-                                            Personal purposes
+                                        <input class="form-check-input" type="checkbox" id="service">
+                                        <label class="form-check-label" for="service">
+                                            Learning more about GitHub (as a service)
+                                        </label>
+                                    </div>
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="checkbox" id="company">
+                                        <label class="form-check-label" for="company">
+                                            Learning more about GitHub (as a company)
+                                        </label>
+                                    </div>
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="checkbox" id="repositories">
+                                        <label class="form-check-label" for="repositories">
+                                            Repositories
+                                        </label>
+                                    </div>
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="checkbox" id="other">
+                                        <label class="form-check-label" for="other">
+                                            Other (Please specify)
+                                            <input type="text" class="form-control" placeholder="Type here...">
+                                        </label>
+                                    </div>
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="checkbox" id="none">
+                                        <label class="form-check-label" for="none">
+                                            None
                                         </label>
                                     </div>
                                 </div>
@@ -55,7 +80,7 @@
                         </div>
                         <div class="card mb-3">
                             <div class="card-body">
-                                <label for="nameInput" class="form-label"><h5>Do you think the layout is efficient?<span class="text-danger">*</span></h5></label>
+                                <label for="nameInput" class="form-label"><h5>Did you think the layout was efficient?<span class="text-danger">*</span></h5></label>
                                 <select class="form-select" aria-label="Select the device you used to access GitHub">
                                     <option value="5">Very Efficient</option>
                                     <option value="4">Efficient</option>
@@ -67,7 +92,7 @@
                         </div>
                         <div class="card mb-3">
                             <div class="card-body">
-                                <h5>Would you recommend GitHub to a friend?<span class="text-danger">*</span></h5>
+                                <h5>Did you think the layout was consistent?<span class="text-danger">*</span></h5>
                                 <div class="mx-auto enum-yes-no">
                                     <div class="form-check">
                                         <input class="form-check-input" type="radio" name="usedGithub" id="usedGithubTrue">
